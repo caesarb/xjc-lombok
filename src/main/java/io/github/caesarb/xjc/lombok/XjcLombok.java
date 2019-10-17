@@ -1,4 +1,4 @@
-package de.svg.xjc.lombok;
+package io.github.caesarb.xjc.lombok;
 
 import java.io.IOException;
 import java.util.Map;
@@ -18,18 +18,16 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-public class XjcLombokPlugin extends Plugin {
-
-    public static final String OPTION_NAME = "Xxjclombok";
+public class XjcLombok extends Plugin {
 
     @Override
     public String getOptionName() {
-        return OPTION_NAME;
+        return "Xxjclombok";
     }
 
     @Override
     public String getUsage() {
-        return "  -" + OPTION_NAME + "\t:  enable generation of lombok annotations";
+        return "  -Xxjclombok\t:  enable generation of lombok annotations";
     }
 
     @Override
