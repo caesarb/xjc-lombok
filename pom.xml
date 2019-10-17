@@ -68,7 +68,7 @@
 							</artifactItems>
 							<includes>lombok/AccessLevel.java,lombok/*ArgsConstructor.java,lombok/Data.java,
 									lombok/Getter.java,lombok/Setter.java,lombok/Equals*.java,
-									lombok/ToString.java,lombok/Value.java</includes>
+									lombok/ToString.java,lombok/Value.java,lombok/experimental/FieldDefaults.java</includes>
 						</configuration>
 					</execution>
 				</executions>
