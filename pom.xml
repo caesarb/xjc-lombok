@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.caesarb</groupId>
 	<artifactId>xjc-lombok</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<name>xjc-lombok</name>
 	<description>xjc plugin enhancing wsdl4java goal by generating equivalent lomboks @Data Annotation</description>
@@ -31,7 +31,8 @@
 		<connection>scm:git:git://github.com/caesarb/xjc-lombok.git</connection>
 		<developerConnection>scm:git:git@github.com:caesarb/xjc-lombok.git</developerConnection>
 		<url>https://github.com/caesarb/xjc-lombok</url>
-	</scm>
+	  <tag>xjc-lombok-0.0.1</tag>
+  </scm>
 
 	<distributionManagement>
 		<snapshotRepository>
