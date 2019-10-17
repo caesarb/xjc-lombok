@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.caesarb</groupId>
 	<artifactId>xjc-lombok</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -14,7 +14,7 @@
 		<connection>scm:git:git://github.com/caesarb/xjc-lombok.git</connection>
 		<developerConnection>scm:git:git@github.com:caesarb/xjc-lombok.git</developerConnection>
 		<url>https://github.com/caesarb/xjc-lombok</url>
-	  <tag>xjc-lombok-0.0.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
